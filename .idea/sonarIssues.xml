@@ -3,6 +3,21 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/DockerFiles/apache2/1/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DockerFiles/apache2/2/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DockerFiles/ping/1/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/HappyPaths/AddRemoveFromStartup.md">
           <value>
             <set />
@@ -13,7 +28,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/HappyPaths/DiscUsage.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/HappyPaths/DockerOther.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/HappyPaths/DockerStatus.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/HappyPaths/LinuxInit.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Tutorials/Docker.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Tutorials/expl1/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../projects/learner-app/backend/src/main/kotlin/com/lumesse/lep/categories/UserDailyCategoriesService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../projects/learner-app/backend/src/main/kotlin/com/lumesse/lep/session/HazelcastHttpSessionConfig.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../projects/learner-app/frontend/src/app/config/config.ts">
           <value>
             <set />
           </value>

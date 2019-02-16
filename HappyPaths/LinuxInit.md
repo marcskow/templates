@@ -39,3 +39,10 @@ ufw status
 scp file root@ip:/remote-path
 scp root@ip:/remote-path file
 ```
+
+**6. Install docker**
+```
+sudo apt-get install docker
+docker version
+sudo systemctl start docker     // if needed
+```
