@@ -1,0 +1,21 @@
+- hosts: centos
+  remote_user: root 
+  tasks:
+	- name: Create a login user
+		   user:
+		    name: marcskow
+		    password: '$6$R6s4gOEh8Z4YxEHr$8lLkBYJFX/zil/4fRfMtZRYpk7G5Ag9.t5hNA841KV6mKbugMo9BmId5bZa1hlHynaXOO8pPG6sRWJK4EC60n.'
+		    groups: # Empty by default, here we give it some groups
+		     - docker
+		     - sudo
+		    state: present
+		    shell: /bin/bash       # Defaults to /bin/bash
+		    system: no             # Defaults to no
+		    createhome: yes        # Defaults to yes
+		    home: /home/marcskow
+
+	- name: Set authorized key taken from file
+		authorized_key:
+		  user: marcskow
+		  state: present
+			key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
