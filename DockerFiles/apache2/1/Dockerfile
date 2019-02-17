@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu:latest
 LABEL maintainer="Marcin Skowron <marcin@skowron.io>"
 LABEL description="This Dockerfile installs apache2."
 
