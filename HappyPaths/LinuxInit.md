@@ -46,3 +46,11 @@ sudo apt-get install docker
 docker version
 sudo systemctl start docker     // if needed
 ```
+
+**7. Add docker to sudo'ers**
+```
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+sudo chmod g+rwx "/home/$USER/.docker" -R
+```
